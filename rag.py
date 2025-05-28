@@ -64,5 +64,5 @@ rag_chain = (
 )
 
 rag_chain.invoke("What is Convolutional Neural Networks?")
-result = rag_chain.invoke("What is Convolutional Neural Networks?")
-print(result)
+results = rag_chain.invoke("What is Convolutional Neural Networks?")
+print(results)
